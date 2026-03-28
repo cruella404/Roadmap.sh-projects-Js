@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Age Calculator</title>
+
+  <!-- Flatpickr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <!-- Luxon -->
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+
+  <!-- Flatpickr JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <h1 class="title">Age Calculator</h1>
+
+  <div class="container">
+    <form class="input-form" onsubmit="return false;">
+      <input type="text" id="dob" placeholder="Enter your birthdate">
+    </form>
+
+    <button onclick="calculateAge()" id="calc-btn">Calculate Age</button>
+
+    <div id="result"></div>
+    <div id="error"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
