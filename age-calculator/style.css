@@ -1,0 +1,88 @@
+/* Body Styling */
+body {
+  background: linear-gradient(135deg, #ffc0cb, #ffd1dc);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Title */
+.title {
+  color: #ff1493;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.4);
+}
+
+/* Container Card */
+.container {
+  background: #fff0f5;
+  padding: 30px;
+  width: 300px;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+
+/* Input */
+input {
+  width: 90%;
+  padding: 12px;
+  border-radius: 15px;
+  border: 2px solid #ffb6c1;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Button */
+#calc-btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff69b4;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button Hover */
+#calc-btn:hover {
+  background: #ff1493;
+  transform: scale(1.05);
+}
+
+/* Result Text */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #c71585;
+  font-weight: bold;
+}
+
+/* Error Text */
+#error {
+  margin-top: 10px;
+  color: red;
+}
+
+/* Cute Sparkle Effect (optional) */
+.container::before {
+  content: "✨";
+  position: absolute;
+  margin-left: -130px;
+  margin-top: -20px;
+  font-size: 24px;
+}
+
+.container::after {
+  content: "🎀";
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -20px;
+  font-size: 24px;
+}
