@@ -1,0 +1,107 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff0f5;
+  color: #333;
+}
+
+/* Layout Container */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navbar */
+header {
+  background: #ff69b4;
+  color: white;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav h1 {
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin-top: 30px;
+}
+
+/* Cards (Projects & Articles) */
+article {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+form {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #ff69b4;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #ff1493;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  background: #ffe4ec;
+}
