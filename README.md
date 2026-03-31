@@ -24,3 +24,5 @@ https://roadmap.sh/projects/accessible-form-ui
 https://roadmap.sh/projects/image-grid
 <br>
 https://roadmap.sh/projects/accordion
+<br>
+https://roadmap.sh/projects/cookie-consent
