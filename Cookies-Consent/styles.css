@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Cookie Box */
+.box {
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  max-width: 350px;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title h2 {
+  margin: 0;
+  font-size: 2.5 em;
+}
+
+/* Text */
+.cookie-text {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.cookie-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.read-more:hover {
+  color: #a2f080;
+  font-weight: bold;
+}
+/* Buttons container */
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+/* Accept Button */
+.accept-btn {
+  background-color: #0056b3;
+  width: 50%;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Accept Hover → Green */
+.accept-btn:hover {
+  background-color: #28a745;
+}
+
+/* Decline Button */
+.decline-btn {
+  background-color: white;
+  width: 50%;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Decline Hover → Red */
+.decline-btn:hover {
+  background-color: #dc3545;
+  color: white;
+  border: 2px solid #dc3545;
+}
